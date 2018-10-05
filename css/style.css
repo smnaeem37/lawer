@@ -1,0 +1,218 @@
+/*
+Auther:S.M.Naeem
+Email :smnaeem37@gmail.com
+*/
+
+/*
+     ===========INDEX===========
+     1.Global CSS.
+     2.Header Section.
+     3.Hero Section.
+     4.About Section.
+     5.Practice Section.
+     6.Lawyer Section.
+     7.Publication Section.
+     8.Faq Section.
+     9.Contact Section.
+
+     ===========================
+ */
+
+/*===1.Global CSS===*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700,800');
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #111111;
+}
+section{
+	padding: 50px 0px;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+.no-padding{
+    padding: 0;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+}
+h2{
+
+}
+h3{
+
+}
+p{
+
+}
+a{
+	color:#111111; 
+}
+a:hover{
+	color: #e8bf5d;
+	text-decoration: none; 
+}
+
+/*=== 2.Header Section===*/
+header{
+	height: 75px;
+}
+.logo{
+    display: inline-block;
+    padding-top: .35rem;
+    padding-bottom: .35rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: 700;
+    color: #111111;
+}
+span{
+    color: #e8bf5d;
+}
+.logo:hover{
+	color:#111111;
+}
+.menu-item{
+    display: block;
+    color: #111111;
+    font-weight: 500;
+    padding: 12px;;
+}
+
+/*===3.Hero Section===*/
+.hero{
+	background: url(../img/banner.png);
+	background-size: cover;
+	height: 100vh;
+}
+.hero-content{
+	padding-top: 500px;
+	margin-left: 100px;
+	color: white;
+
+}
+.btn-theme{
+    border-radius: 20px;
+    background-color: #e8bf5d;
+}
+.btn-theme:hover{
+	 background-color:#923636de;
+	 color: white;
+	 transition: 0.4s;
+}
+.hero-client{
+	border-left: 1px solid #e8bf5d;
+    margin-left: 12px;
+    padding-left: 10px;
+
+}
+/*===4.About Section===*/
+.about-heading{
+	border-left: 1px solid #e8bf5d;
+    padding: 10px
+}
+
+
+
+/*===5.Practice Section===*/
+.practice{
+	background-color: #111;
+	color: white;
+}
+.prtc{
+	border-left: 1px solid #e8bf5d;
+    margin-left: 12px;
+    padding-left: 10px;
+
+}
+
+/*===6.Review Section===*/
+.review{
+	background: url(../img/06.png);
+	background-size: contain;
+	color: white;
+}
+
+/*=== 7.Publication Section===*/
+.pub-info{
+	justify-content: space-between;
+	display: flex;
+	
+}
+.left{
+	margin-left: -120px;
+}
+.pub-one,
+.pub-two,
+.pub-three{
+	border-bottom: 2px solid #e8bf5d;
+	padding: 30px 30px;
+}
+/*===8.Faq Section===*/
+.faq-ad{
+	background-color: #111111;
+	color: white;
+}
+.qstn-one{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e8bf5d;
+    margin-top: 16px;
+    padding-top: 10px;
+}
+.faq-para{
+    background-color: #e8bf5d;
+    color: white;
+    padding: 38px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.faq-qstn{
+	    border-left: 2px solid #e8bf5d;
+}
+/*===9.Contact Section===*/
+.cntct{
+	  border-left: 2px solid #e8bf5d;
+}
+form{
+	display: block;
+}
+.frm{
+	width: 300px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 20px;
+    padding-top: 30px;
+    font-style: italic;
+    box-shadow: none;
+}
+.submit{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.sub{
+
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #e8bf5d;
+}
+.sub:hover{
+	cursor: pointer;
+	background-color: #9b7614bf;
+	transition: 0.4s ;
+}
+.google-map{
+	width: 300px;
+	height: 300px;
+	box-shadow:10px 10px 10px #c8a43ce6;
+    margin-top: 25px;
+}
